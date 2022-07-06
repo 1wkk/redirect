@@ -1,0 +1,1 @@
+const i={"https://link.juejin.cn":"target","https://link.zhihu.com":"target","https://link.csdn.net":"target","https://www.jianshu.com":"url"},o=t=>decodeURIComponent(t),{location:n}=window,e=i[n.origin];if(e){const t=n.href.split(`${e}=`);t.length>1&&(n.href=o(t[1]))}

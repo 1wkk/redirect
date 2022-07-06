@@ -1,0 +1,32 @@
+{
+  "name": "Redirect",
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "js": [
+        "assets/content-script-loader.content.ts.d96a1287.09909e8f.js"
+      ],
+      "matches": [
+        "https://link.juejin.cn/*",
+        "https://link.zhihu.com/*",
+        "https://link.csdn.net/*",
+        "https://www.jianshu.com/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://link.csdn.net/*",
+        "https://link.juejin.cn/*",
+        "https://link.zhihu.com/*",
+        "https://www.jianshu.com/*"
+      ],
+      "resources": [
+        "assets/content.ts.d96a1287.js"
+      ],
+      "use_dynamic_url": true
+    }
+  ]
+}
