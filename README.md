@@ -15,7 +15,7 @@
 1. Download dist dir.
 2. Toggle developer mode in extension and then import dist.
 
-![](./public/sc.gif)
+![](./public/redirect.gif)
 
 ## THX
 
