@@ -4,7 +4,7 @@ import { redirects } from './src/redirects'
 export default defineManifest({
   name: 'Redirect',
   manifest_version: 3,
-  version: '0.0.1',
+  version: '0.0.2',
   icons: {
     '16': 'icon.png',
     '32': 'icon.png',
